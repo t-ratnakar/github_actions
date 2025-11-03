@@ -10,7 +10,7 @@ env:
   CONTAINER_NAME: image
   RESOURCE_GROUP: aksrg
   CLUSTER_NAME: kubeactions
-  DEPLOYMENT_MANIFEST_PATH: ./azure-vote-all-in-one-redis.yaml
+  DEPLOYMENT_MANIFEST_PATH: ./azure-vote/azure-voting-app-redis/azure-vote-all-in-one-redis.yaml
 
 jobs:
   buildImage:
