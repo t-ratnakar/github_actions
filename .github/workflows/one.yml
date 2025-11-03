@@ -6,7 +6,7 @@ on:
         types:
             - created
     issues:
-        types: [opened, edited]
+        types: [opened, labeled]
 jobs:
     print_hello:
         runs-on: ubuntu-latest
