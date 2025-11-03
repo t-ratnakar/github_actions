@@ -10,11 +10,7 @@ env:
   CONTAINER_NAME: image
   RESOURCE_GROUP: aksrg
   CLUSTER_NAME: kubeactions
-  DEPLOYMENT_MANIFEST_PATH: |
-    ./manifests/azure-vote-backend-deployment.yaml
-    ./manifests/azure-vote-frontend-deployment.yaml
-    ./manifests/azure-vote-frontend-service.yaml
-    ./manifests/azure-vote-backend-service.yaml
+  DEPLOYMENT_MANIFEST_PATH: ./azure-vote-all-in-one-redis.yaml
 
 jobs:
   buildImage:
